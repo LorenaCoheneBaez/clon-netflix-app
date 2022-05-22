@@ -10,13 +10,14 @@ const Carousel = ({ entity, title }) => {
   return (
     <>
       <div>
-        <h1
+        <h3
           style={{
             color: "white",
+            marginBottom: "0.5rem",
           }}
         >
           {title}
-        </h1>
+        </h3>
       </div>
       <Slider {...settingsSlider}>
         {loading ? (

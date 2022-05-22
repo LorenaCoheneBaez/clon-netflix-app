@@ -25,23 +25,23 @@ const Navbar = () => {
       />
 
       <div className="nav_menu">
-        <a className="nav_item" href="#">
+        <a className="nav_item" href="/">
           Inicio
         </a>
 
-        <a className="nav_item" href="#">
+        <a className="nav_item" href="/">
           Series
         </a>
 
-        <a className="nav_item" href="#">
+        <a className="nav_item" href="/">
           Peliculas
         </a>
 
-        <a className="nav_item" href="#">
+        <a className="nav_item" href="/">
           Novedades populares
         </a>
 
-        <a className="nav_item" href="#">
+        <a className="nav_item" href="/">
           Mi lista
         </a>
       </div>
