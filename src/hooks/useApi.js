@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { apiBuilder, apiLanguage, apiQuality } from "../apiConfig";
+import { apiBuilder, apiLanguage, apiQuality } from "../services/apiConfig";
 import { randomIndex } from "../utils/utils";
 
 const useApi = (entity, lang = apiLanguage.spanish, pagination = 1) => {

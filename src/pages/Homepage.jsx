@@ -1,5 +1,5 @@
 import React from "react";
-import { apiEntity } from "../apiConfig";
+import { apiEntity } from "../services/apiConfig";
 import Banner from "../components/Banner/Banner";
 import Carousel from "../components/Carousel/Carousel";
 import Separator from "../components/Separator/Separator";

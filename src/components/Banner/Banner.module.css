@@ -1,6 +1,6 @@
 .banner_container {
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,6 +20,8 @@
   font-weight: bold;
   color: #fff;
   margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
 }
 
 .banner_header h1 {
@@ -47,6 +49,14 @@
   font-size: 1.2rem;
   color: #fff;
   font-weight: lighter;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.banner_buttons_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .banner_buttons {
@@ -55,6 +65,8 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin-left: 1rem;
+  text-align: center;
 }
 
 .banner_buttons button:nth-child(2) {
@@ -62,21 +74,64 @@
 }
 
 .banner_button {
-  width: 220px;
-  height: 55px;
+  width: 28vw;
+  height: 8vh;
+  font-size: 1.5rem;
   background-color: rgba(224, 224, 224, 1);
   color: rgb(0, 0, 0);
-  font-size: 1.2rem;
-  font-weight: lighter;
+  font-weight: bold;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
+.banner_button_play {
+  background-color: rgba(128, 128, 128, 0.483);
+  color: #ffff;
+  width: 28vw;
+  height: 8vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.banner_more_buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner_more_buttons p {
+  font-size: 1.2rem;
+}
+
+.banner_more_buttons_volume {
+  border: 2px solid #ffff;
+  border-radius: 50%;
+  padding: 0.4rem;
+  margin-right: 0.9375rem;
+}
+
+.banner_more_buttons_adult {
+  border-left: 2px solid #ffff;
+  height: 8vh;
+  width: 5vw;
+  background-color: rgba(128, 128, 128, 0.483);
+}
+
 .banner_button:hover {
-  background-color: rgba(224, 224, 224, 0.2);
-  color: rgb(255, 255, 255);
+  background-color: rgba(224, 224, 224, 0.489);
+}
+
+.banner_span {
+  margin-right: 0.5rem;
+}
+
+.banner_span i {
+  font-size: 30px;
 }
 
 .banner_header_content {
@@ -107,4 +162,13 @@
   display: flex;
   flex-direction: column;
   margin-top: 10em;
+}
+
+.banner_div_subtitle {
+  display: flex;
+  align-items: center;
+}
+
+.banner_logo_subtitle {
+  width: 5vw;
 }
