@@ -27,10 +27,6 @@ El uso y manipulación del ciclo de vida (useEffect).
 <a href="https://www.w3schools.com/css/" target="_blank" data-bs-toggle="tooltip" title="CSS3"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3"/> </a>
  </p>
  
-## Demo:
-
-<a href="" target="_blank">Para ver el proyecto hacer click aquí</a>
-
 #### 
                                                                          
  ***    
