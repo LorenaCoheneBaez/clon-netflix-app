@@ -51,8 +51,8 @@ cd clon-netflix-app
 ````
 npm install
 ````
-### Levantar el servidor (puerto 3000):
+### Levantar el servidor en el puerto 3000:
 
 ````
-npm start
+npm start 
 ````
