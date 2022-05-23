@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { apiEntity } from "../../services/apiConfig";
 import useApi from "../../hooks/useApi";
 import Separator from "../Separator/Separator";
@@ -33,12 +33,12 @@ const Banner = () => {
           <h6 className={styles.banner_subtitle}>Película</h6>
         </div>
         <div className={styles.banner_title}>
-          <h1>{loading ? "Loading..." : randomMovie?.title}</h1>
+          <h1>{loading ? "Cargando..." : randomMovie?.title}</h1>
         </div>
         <Separator height={"40px"} />
 
         <div className={styles.banner_description}>
-          <h2>{loading ? "Loading..." : randomMovie?.overview.split(".")}</h2>
+          <h2>{loading ? "Cargando..." : randomMovie?.overview.split(".")}</h2>
         </div>
         <div className={styles.banner_buttons_container}>
           <div className={styles.banner_buttons}>
@@ -49,9 +49,7 @@ const Banner = () => {
               Reproducir
             </button>
 
-            <button
-              className={styles.banner_button_play}
-            >
+            <button className={styles.banner_button_play}>
               <span className={styles.banner_span}>
                 <i className="bi bi-info-circle"></i>
               </span>
@@ -64,11 +62,7 @@ const Banner = () => {
             </p>
 
             <p className={styles.banner_more_buttons_adult}>
-              {loading
-                ? "Loading..."
-                : randomMovie?.adult == false
-                ? "ATP"
-                : "+16"}
+              {loading ? "..." : randomMovie?.adult === false ? "ATP" : "+16"}
             </p>
           </div>
         </div>

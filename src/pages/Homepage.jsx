@@ -11,12 +11,12 @@ const Homepage = () => {
       <Separator height={"40px"} />
       <Carousel
         entity={apiEntity.popularMovies}
-        title={"Peliculas populares"}
+        title={"Películas populares"}
       />
       <Separator height={"40px"} />
       <Carousel
         entity={apiEntity.topRatedMovies}
-        title="Peliculas mejor puntuadas"
+        title="Películas mejor puntuadas"
       />
       <Separator height={"40px"} />
       <Carousel entity={apiEntity.popularTv} title="Series populares" />

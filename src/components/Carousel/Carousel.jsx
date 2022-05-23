@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Slider from "react-slick";
 import useApi from "../../hooks/useApi";
 import Card from "../Card/Card";
