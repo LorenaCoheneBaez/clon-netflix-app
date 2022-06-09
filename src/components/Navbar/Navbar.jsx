@@ -29,21 +29,21 @@ const Navbar = () => {
           Inicio
         </a>
 
-        <a className="nav_item" href="/">
+        <p className="nav_item">
           Series
-        </a>
+        </p>
 
-        <a className="nav_item" href="/">
+        <p className="nav_item">
           Peliculas
-        </a>
+        </p>
 
-        <a className="nav_item" href="/">
+        <p className="nav_item">
           Novedades populares
-        </a>
+        </p>
 
-        <a className="nav_item" href="/">
+        <p className="nav_item">
           Mi lista
-        </a>
+        </p>
       </div>
 
       <img

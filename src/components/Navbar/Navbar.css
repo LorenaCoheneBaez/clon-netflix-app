@@ -53,6 +53,10 @@
   transition: ease-in-out 600ms;
 }
 
+.nav_item:not(:first-child){
+  cursor: default;
+}
+
 .nav_item:hover {
   color: rgb(155, 155, 155);
 }

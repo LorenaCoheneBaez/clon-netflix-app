@@ -1,4 +1,39 @@
-.footer{
+.footer_superior {
+  margin-top: 4.875rem;
+  padding-right: 6.0625rem;
+  padding-left: 4.125rem;
+}
+
+.footer_superior_social{
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 24px;
+}
+
+.footer_superior_social i{
+  margin-right: .9375rem;
+}
+
+.footer_container_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: #808080;
+  font-size: .8125rem;
+}
+
+.footer_container_grid_p p{
+  margin-bottom: 1rem;
+}
+
+.footer_button{
+  background-color: transparent;
+  color: #808080;
+  border: solid 1px #808080;
+  padding: 0.5rem;
+  font-family: Helvetica, sans-serif;
+}
+
+.footer_development {
   font-size: 12px;
   color: #fff;
   padding: 5vh;
@@ -16,7 +51,7 @@
   background-color: black;
 }
 
-#footer{
+#footer {
   font-size: 14px;
 }
 
@@ -29,7 +64,7 @@
   color: #000;
 }
 
-.heart{
+.heart {
   font-size: 16px;
   cursor: pointer;
   animation-name: heart;
@@ -38,8 +73,16 @@
 }
 
 @keyframes heart {
-  0%   {color: red;}
-  25%  {color: rgb(183, 11, 163);}
-  50%  {color: #fff;}
-  100% {color: red;}
+  0% {
+    color: red;
+  }
+  25% {
+    color: rgb(183, 11, 163);
+  }
+  50% {
+    color: #fff;
+  }
+  100% {
+    color: red;
+  }
 }
