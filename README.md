@@ -28,6 +28,9 @@ El uso y manipulación del ciclo de vida (useEffect).
  </p>
  
 #### 
+
+## Demo
+ <a href="https://clon-netflix-9w4xz8m8l-lorenacohenebaez.vercel.app" target="_blank"> Para ver el proyecto hacer click aquí</a>
                                                                          
  ***    
  ## Instalación del proyecto:
