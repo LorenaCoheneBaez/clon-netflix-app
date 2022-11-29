@@ -8,9 +8,9 @@
 1. **[Instalación del proyecto](#instalación-del-proyecto)**
 
 ## Objetivo
-El uso correcto de fetch o axios para consumir los servicios correspondientes.
-El uso y elección de herramientas para el manejo de estado. (useState, useReducer).
-El uso y manipulación del ciclo de vida (useEffect).
+El uso correcto de fetch o axios para consumir servicios.
+El uso y elección de herramientas para el manejo de estado como useState o useReducer.
+El uso y manipulación del ciclo de vida, useEffect.
 
 #### 
 ***
